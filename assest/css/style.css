@@ -1,0 +1,40 @@
+body {
+    background-color: #262626;
+    margin: 0;
+}
+.header {
+    background: url("./assest/images/header-img.jpg");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    box-shadow: 15px 5px 5px black;
+}
+.header-img {
+    width: 100%;
+}
+.wrraper-gallery {
+    margin: 1em;
+    text-align: center;
+}
+.gallery-img {
+    width: 250px;
+    height: 300px;
+    margin: 0.5em;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px black;
+    object-fit: cover;
+}
+.obj-position-img-top {
+    object-position: top;
+}
+.obj-position-img-top-left {
+    object-position: top left;
+}
+.obj-position-img-top-right {
+    object-position: top right;
+}
+.obj-position-img-center {
+    object-position: center;
+}
