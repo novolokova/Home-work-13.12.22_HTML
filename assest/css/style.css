@@ -1,15 +1,17 @@
 body {
-    background-color: #262626;
     margin: 0;
-}
+    background-color: #262626;
+  }
 
 .header {
-    background: url("./assest/images/header-img.jpg");
+    background-position: center;
     width: 100%;
     height: 100%;
-    background-repeat: no-repeat;
+
+    background: url("./assest/images/header-img.jpg");
     background-size: contain;
-    background-position: center;
+    background-repeat: no-repeat;
+ 
     box-shadow: 15px 5px 5px black;
 }
 
@@ -25,8 +27,10 @@ body {
 .gallery-img {
     width: 250px;
     height: 300px;
+
     margin: 0.5em;
     border-radius: 20px;
+
     box-shadow: 10px 5px 5px black;
     object-fit: cover;
     transition: transform 0.5s;
